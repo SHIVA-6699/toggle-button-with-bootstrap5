@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" crossorigin="anonymous">
+
+</head>
+<body data-bs-theme="dark">
+  <div class="form-check form-switch mx-0">
+    <input
+      class="form-check-input" 
+        type="checkbox"
+        
+        id="flexSwitchCheckChecked"
+      checked
+      onclick="myFunction()"
+    />
+  </div>
+<script>
+       function myFunction() {
+        var element = document.body;
+        element.dataset.bsTheme = element.dataset.bsTheme == "light" ? "dark" : "light";
+       
+      }
+</script>
+
+
+</body>
+</html>
